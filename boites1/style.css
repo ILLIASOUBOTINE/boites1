@@ -1,0 +1,32 @@
+
+main {
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* min-height: 200px; */
+
+}
+
+.boit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink:2;
+  height: 40%;
+    min-height: 50px;
+    margin: 10px auto;
+  background: rgb(207,226,243);  
+  border: solid 1px rgb(139, 128, 128);
+}
+
+@media screen and ( max-width:960px) {
+    main {
+       
+        flex-direction: column;
+    }
+
+    .boit {
+        width: 90%;
+    }
+}
